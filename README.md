@@ -32,6 +32,14 @@ https://www.kaggle.com/datasets/raijincheng/rethink-recycle-dataset
 | FC層無DROPOUT/</br>分層訓練 |![image](https://github.com/yorick9453/Trash-classification-model/blob/main/runs/no_Drop_SplitTrain/no_Drop_SplitTrain_acc.png)|![image](https://github.com/yorick9453/Trash-classification-model/blob/main/runs/no_Drop_SplitTrain/no_Drop_SplitTrain_loss.png)|![image](https://github.com/yorick9453/Trash-classification-model/blob/main/runs/no_Drop_SplitTrain/no_Drop_SplitTrain.png)|
 | FC層DROPOUT/</br>分層訓練 |![image](https://github.com/yorick9453/Trash-classification-model/blob/main/runs/Drop_SplitTrain/Drop_SplitTrain_acc.png)|![image](https://github.com/yorick9453/Trash-classification-model/blob/main/runs/Drop_SplitTrain/Drop_SplitTrain_loss.png)|![image](https://github.com/yorick9453/Trash-classification-model/blob/main/runs/Drop_SplitTrain/Drop_SplitTrain.png)|
 ## *使用方式*
-直接運行 *inference.py* 即可在本機端 (*localhost:5000*) 看到分類網頁，將欲分類的垃圾放在電腦攝像頭前並按下 *拍攝照片* 按鈕後模型即開始分類，並將結果顯示在網頁下方
+直接運行 *inference.py* 
+
+```bash
+python inference.py
+```
+
+即可在本機端 (*localhost:5000*) 看到分類網頁，將欲分類的垃圾放在電腦攝像頭前並按下 *拍攝照片* 按鈕後模型即開始分類，並將結果顯示在網頁下方
+
+![image](https://github.com/yorick9453/Trash-classification-model/blob/main/runs/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-09-15%20224206.png)
 
 
